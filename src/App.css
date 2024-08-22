@@ -1,0 +1,26 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff8000;
+  transition: background-color 0.3s ease;
+}
+.btn:hover{
+  background-color: #ee6e00;
+}
+.dark{
+  color: aliceblue;
+  background-color: black;
+}
+.light{
+  color: black;
+  background-color: aliceblue;
+}
